@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de resta</title>
+    <link rel="stylesheet" href="../CSS/resta.css">
+</head>
+<body>
+    <h1>JUEGO DE RESTA</h1>
+    <div class="container">
+        <div class="izquierdo">
+            <div class="container-operacion">
+                <span id="resta">9 - 4 =</span>
+                <span class="resultado" id="resultado">5</span>
+            </div>
+            <span class="msj" id="msj"></span>
+        </div>
+        <div class="derecha">
+            <span id="op1" class="opcion" onclick="controlarRespuesta(this)">5</span>
+            <span id="op2" class="opcion" onclick="controlarRespuesta(this)">6</span>
+            <span id="op3" class="opcion" onclick="controlarRespuesta(this)">3</span>
+            <div class="sidebar"><a href="../Html/proyecto_menoresde4.html">Regresar</a></div>
+        </div>
+    </div>
+    <script src="../Js/resta.js"></script>
+</body>
+</html>

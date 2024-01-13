@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de multiplicación</title>
+    <link rel="stylesheet" href="../CSS/multi.css">
+</head>
+<body>
+    <h1>JUEGO DE MULTIPLICACIÓN</h1>
+    <div class="container">
+        <div class="izquierdo">
+            <div class="container-operacion">
+                <span id="multiplicacion">4 x 7 =</span>
+                <span class="resultado" id="resultado">28</span>
+            </div>
+            <span class="msj" id="msj"></span>
+        </div>
+        <div class="derecha">
+            <span id="op1" class="opcion" onclick="controlarRespuesta(this)">28</span>
+            <span id="op2" class="opcion" onclick="controlarRespuesta(this)">29</span>
+            <span id="op3" class="opcion" onclick="controlarRespuesta(this)">26</span>
+            <div class="sidebar"><a href="../Html/proyecto_menoresde4.html">Regresar</a></div>
+        </div>
+    </div>
+    <script src="../Js/multi4.js"></script>
+</body>
+</html>

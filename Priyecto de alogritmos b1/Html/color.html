@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../CSS/animal.css">
+  <title>Adivina el Animal</title>
+  
+</head>
+<body>
+  <h1>Adivina el Color</h1>
+  <img id="colorImage" alt="color" weidth="165px">
+  <p id="colorDisplay"></p>
+  <input type="text" id="inputcolor" placeholder="Ingrese su respuesta" onkeydown="if (event.key === 'Enter') adivinarcolor()">
+  <button onclick="adivinarcolor()">Adivinar</button>
+
+  <script src="../Js/color.js"></script>
+</body>
+</html>
